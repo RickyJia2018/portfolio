@@ -2,7 +2,7 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import projectImg1 from "@/public/project1.png";
+import projectImg1 from "@/public/next.svg";
 
 
 export const links = [
