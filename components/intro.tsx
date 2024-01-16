@@ -63,16 +63,21 @@ export default function Intro() {
         }}
       >
         <Link href="#contact"
-        className="bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:gb-gray-950 active:scale-105 transition">
-          Contact me here <BsArrowRight className='opacity-70'/> {" "}
+        className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:gb-gray-950 active:scale-105 transition">
+          Contact me here <BsArrowRight className='opacity-70 group-hover:translate-x-2 transition'/> {" "}
         </Link>
-        <a className="bg-white px-7 py-3 flex items-center gap-2 rounded-full">
-          Download Resume <HiDownload/>{" "}
+        <a className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full
+        outline-none focus:scale-110 hover:scale-110 hover:gb-gray-950 active:scale-105 transition cursor-pointer border border-black/10
+        "
+        href="/RickyJia_Resume.pdf" download={true}>
+          Download Resume <HiDownload className='group-hover:translate-y-1 transition'/>{" "}
         </a>
-        <a className="bg-white p-4 text-gray-700 flex rounded-full items-center gap-2">
+        <a className="bg-white p-4 text-gray-700 hover:text-gray-950 flex rounded-full items-center gap-2 outline-none focus:scale-110 hover:scale-110 hover:gb-gray-950 active:scale-105 transition cursor-pointer border border-black/10"
+        href='https://www.linkedin.com/in/ricky-jia-b89a38181/' target='_blank'>
           <BsLinkedin />
         </a>       
-        <a className="bg-white p-4 text-gray-700 flex rounded-full items-center gap-2">
+        <a className="bg-white p-4 text-gray-700 hover:text-gray-950 flex rounded-full items-center gap-2 outline-none focus:scale-110 hover:scale-110 hover:gb-gray-950 active:scale-105 transition cursor-pointer border border-black/10"
+        href='https://github.com/RickyJia2018' target='_blank'>
           <BsGithub />
         </a>
       </motion.div>
