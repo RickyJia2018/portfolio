@@ -34,18 +34,18 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated University of Mantoba",
+    title: "University of Mantoba",
     location: "Winnipeg, MB",
     description:
-      "I graduated after 5 years of studying.",
+      "I have obtained a Bachelor of Science degree (Marjor in Computer Science).",
     icon: React.createElement(LuGraduationCap),
-    date: "2018",
+    date: "Dec 2017",
   },
   {
     title: "Software Engineer",
     location: "Vancvouer, BC",
     description:
-      "I worked as a front-end developer for 2 years. I also upskilled to the full stack.",
+      "I started as IOS developer, then I worked as a full-stack web developer for 1 year.",
     icon: React.createElement(CgWorkAlt),
     date: "May 2019 - Jul 2020",
   },
@@ -53,7 +53,7 @@ export const experiencesData = [
     title: "Software Engineer",
     location: "Vancvouer, BC",
     description:
-      "My stack includes React, Next.js, TypeScript, Tailwind and MongoDB.",
+      "I kept building web apps. My frontend stack includes React, Next.js, TypeScript, Tailwind and MongoDB. My backend stack are Golang(Gin&gRPC), NodeJS/Express, Postgres/sqlc, MongoDB/Mongoose.",
     icon: React.createElement(FaReact),
     date: "Aug 2020 - Apr 2022",
   },
@@ -61,7 +61,7 @@ export const experiencesData = [
     title: "Junior Software Engineer",
     location: "Richmond Hill, ON",
     description:
-      " I'm open to full-time opportunities.",
+      "I'm open to full-time opportunities.",
     icon: React.createElement(FaReact),
     date: "Aug 2023 - Present",
   },
@@ -69,20 +69,28 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "project1",
+    title: "PeakPal Micro Server",
+    description:
+      "",
+    tags: ["Golang", "gRPC", "Postgres","Paseto","Docker","Github Action","AWS-lightsail"],
+    imageUrl: projectImg1,
+    link: "https://peakpal.googuar.com"
+  },
+  {
+    title: "Royal Metro College",
     description:
       "I worked as a full-stack developer",
-    tags: ["React", "MongoDB", "Bootstrap"],
+    tags: ["React","NodeJS/Express", "MongoDB", "Bootstrap"],
     imageUrl: projectImg1,
     link: ""
   },
   {
-    title: "project2",
+    title: "Remmants",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "The website offering a marketplace for quartz, granite, and porcelain countertop remnants. It connects buyers and sellers, featuring a gallery of stones, quote requests, and a platform for commercial project bidding.",
+    tags: ["PHP", "Laravel", "MySQL", "Bootsrap","Stripe"],
     imageUrl: projectImg1,
-    link: ""
+    link: "https://remnantss.com/"
 
   },
 ] as const;
