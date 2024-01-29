@@ -20,7 +20,7 @@ export default function About() {
         </p>
         <p className='mt-3 mb-3'>I am currently looking for a <span className='font-medium' >full-time position as a software developer.</span></p>
         <p>
-          When I'm not coding, I enjoy playing video games, fishing, hiking and skiing(CSIA L2). Welcome ski with me.
+          When I{"'"}m not coding, I enjoy playing video games, fishing, hiking and skiing(CSIA L2). Welcome ski with me.
         </p>
     </motion.section>
   )
