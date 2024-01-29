@@ -72,24 +72,24 @@ export const projectsData = [
   {
     title: "PeakPal Micro Server",
     description:
-      "",
-    tags: ["Golang", "gRPC", "Postgres","Paseto","Docker","Github Action","AWS-lightsail"],
+      "The main API server for my ski app is 100% homemade by me. There are additional microservers that rely on the main server.",
+    tags: ["Golang", "gRPC", "Postgres","Docker"],
     imageUrl: projectImg1,
     link: "https://peakpal.googuar.com"
   },
   {
     title: "Royal Metro College",
     description:
-      "I worked as a full-stack developer",
-    tags: ["React","NodeJS/Express", "MongoDB", "Bootstrap"],
+      "The official RMC website for students to browse courses and apply for programs. I mainly involve in backend development and support junior front-end developers.",
+    tags: ["React","next.js","Node.js", "MongoDB"],
     imageUrl: projectImg1,
     link: ""
   },
   {
     title: "Remmants",
     description:
-      "The website offering a marketplace for quartz, granite, and porcelain countertop remnants. It connects buyers and sellers, featuring a gallery of stones, quote requests, and a platform for commercial project bidding.",
-    tags: ["PHP", "Laravel", "MySQL", "Bootsrap","Stripe"],
+      "The website offers a marketplace for quartz, granite, and porcelain countertop remnants. I worked as a full-stack developer with Yulin, the Director of Software Development.",
+    tags: [ "Laravel", "MySQL", "Bootstrap","Stripe"],
     imageUrl: projectImg1,
     link: "https://remnantss.com/"
 
