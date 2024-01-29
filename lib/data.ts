@@ -42,26 +42,26 @@ export const experiencesData = [
     date: "Dec 2017",
   },
   {
-    title: "Software Engineer",
-    location: "Vancvouer, BC",
+    title: "Software Engineer @Coinchain Inc.",
+    location: " Vancvouer, BC",
     description:
       "I started as IOS developer, then I worked as a full-stack web developer for 1 year.",
     icon: React.createElement(CgWorkAlt),
     date: "May 2019 - Jul 2020",
   },
   {
-    title: "Software Engineer",
+    title: "Software Engineer @Evilnut Technology",
     location: "Vancvouer, BC",
     description:
-      "I kept building web apps. My frontend stack includes React, Next.js, TypeScript, Tailwind and MongoDB. My backend stack are Golang(Gin&gRPC), NodeJS/Express, Postgres/sqlc, MongoDB/Mongoose.",
+      "I kept building web apps. My main stack is MERN. I've also ventrued into microservices development using Golang(gRPC), Postgres/sqlc, Docker and k8s.",
     icon: React.createElement(FaReact),
     date: "Aug 2020 - Apr 2022",
   },
   {
-    title: "Junior Software Engineer",
+    title: "Junior Software Engineer @Funglyn Inc.",
     location: "Richmond Hill, ON",
     description:
-      "I'm open to full-time opportunities.",
+      "I started building embedded software using C/C++ and also developed a web app to interact with our embedded software.",
     icon: React.createElement(FaReact),
     date: "Aug 2023 - Present",
   },
