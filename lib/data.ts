@@ -1,6 +1,7 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
+import { GiMechanicalArm } from "react-icons/gi";
 import { LuGraduationCap } from "react-icons/lu";
 import projectImg1 from "@/public/next.svg";
 
@@ -62,7 +63,7 @@ export const experiencesData = [
     location: "Richmond Hill, ON",
     description:
       "I started building embedded software using C/C++ and also developed a web app to interact with our embedded software.",
-    icon: React.createElement(FaReact),
+    icon: React.createElement(GiMechanicalArm),
     date: "Aug 2023 - Present",
   },
 ] as const;
