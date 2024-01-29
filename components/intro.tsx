@@ -56,12 +56,12 @@ export default function Intro() {
         <span className="font-bold">full-stack developer</span> with{" "}
         <span className="font-bold">6 years</span> of experience. I enjoy
         building <span className="italic">sites & apps</span>. My focus is{" "}
-        <span className="underline">React (Next.js)</span>
+        <span className="underline">React</span>
         <span> and </span>
-        <span className="underline">Golang (gRPC)</span>
+        <span className="underline">Golang</span>
         .
       </motion.h1>
-      <motion.div className='flex flex-col sm:flex-row gap-3 px-4 text-lg font-medium'
+      <motion.div className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
         initial={{ opacity:0, y:100 }}
         animate={{ opacity:1, y:0 }}
         transition={{
@@ -69,7 +69,7 @@ export default function Intro() {
         }}
       >
         <Link href="#contact"
-        className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:gb-gray-950 active:scale-105 transition">
+        className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none hover:scale-110 hover:gb-gray-950 active:scale-105 transition">
           Contact me here <BsArrowRight className='opacity-70 group-hover:translate-x-2 transition'/> {" "}
         </Link>
         <a className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full
@@ -78,11 +78,11 @@ export default function Intro() {
         href="/RickyJia_Resume.pdf" download={true}>
           Download Resume <HiDownload className='group-hover:translate-y-1 transition'/>{" "}
         </a>
-        <a className="bg-white p-4 text-gray-700 hover:text-gray-950 flex rounded-full items-center gap-2 outline-none focus:scale-110 hover:scale-110 hover:gb-gray-950 active:scale-105 transition cursor-pointer border border-black/10"
+        <a className="bg-white p-4 text-gray-700 hover:text-gray-950 flex rounded-full items-center gap-2 outline-none hover:scale-110 hover:gb-gray-950 active:scale-105 transition cursor-pointer border border-black/10"
         href='https://www.linkedin.com/in/ricky-jia-b89a38181/' target='_blank'>
           <BsLinkedin />
         </a>       
-        <a className="bg-white p-4 text-gray-700 hover:text-gray-950 flex rounded-full items-center gap-2 outline-none focus:scale-110 hover:scale-110 hover:gb-gray-950 active:scale-105 transition cursor-pointer border border-black/10"
+        <a className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
         href='https://github.com/RickyJia2018' target='_blank'>
           <BsGithub />
         </a>
