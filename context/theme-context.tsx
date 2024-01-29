@@ -31,8 +31,14 @@ export default function ThemeContextProvider({
       document.documentElement.classList.remove("dark");
     }
   };
-
   useEffect(() => {
+    // Call the API route
+    fetch('/api/track')
+      .then(response => response.json())
+      .then(data => console.log(`Page visits: ${data.count}`));
+  }, []);
+  useEffect(() => {
+    
     const localTheme = window.localStorage.getItem("theme") as Theme | null;
 
     if (localTheme) {
