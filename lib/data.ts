@@ -3,8 +3,9 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { GiMechanicalArm } from "react-icons/gi";
 import { LuGraduationCap } from "react-icons/lu";
-import projectImg1 from "@/public/next.svg";
-
+import projectPeak from "@/public/peakpal_carpool.png";
+import projectRoyal from "@/public/royal.png";
+import projectRem from "@/public/remnants.png";
 
 export const links = [
   {
@@ -74,7 +75,7 @@ export const projectsData = [
     description:
       "The main API server for my ski app is 100% homemade by me. There are additional microservers that rely on the main server.",
     tags: ["Golang", "gRPC", "Postgres","Docker"],
-    imageUrl: projectImg1,
+    imageUrl: projectPeak,
     link: "https://peakpal.googuar.com"
   },
   {
@@ -82,7 +83,7 @@ export const projectsData = [
     description:
       "The official RMC website for students to browse courses and apply for programs. I mainly involve in backend development and support junior front-end developers.",
     tags: ["React","next.js","Node.js", "MongoDB"],
-    imageUrl: projectImg1,
+    imageUrl: projectRoyal,
     link: ""
   },
   {
@@ -90,7 +91,7 @@ export const projectsData = [
     description:
       "The website offers a marketplace for quartz, granite, and porcelain countertop remnants. I worked as a full-stack developer with Yulin, the Director of Software Development.",
     tags: [ "Laravel", "MySQL", "Bootstrap","Stripe"],
-    imageUrl: projectImg1,
+    imageUrl: projectRem,
     link: "https://remnantss.com/"
 
   },
