@@ -57,21 +57,21 @@ export const experiencesData = [
     description:
       "I kept building web apps. My main stack is MERN. I've also ventrued into microservices development using Golang(gRPC), Postgres/sqlc, Docker and k8s.",
     icon: React.createElement(FaReact),
-    date: "Aug 2020 - Apr 2022",
+    date: "Aug 2020 - Apr 2023",
   },
   {
-    title: "Junior Software Engineer @Funglyn Inc.",
+    title: "Software Engineer @Funglyn Inc.",
     location: "Richmond Hill, ON",
     description:
-      "I started building embedded software using C/C++ and also developed a web app to interact with our embedded software.",
+      "I started building embedded software using C/C++ and also developed a Next.js web app to interact with our embedded software.",
     icon: React.createElement(GiMechanicalArm),
-    date: "Aug 2023 - Present",
+    date: "Aug 2023 - Apr 2024",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "PeakPal Micro Server",
+    title: "Micro Server Showcase",
     description:
       "The main API server for my ski app is 100% homemade by me. There are additional microservers that rely on the main server.",
     tags: ["Golang", "gRPC", "Postgres","Docker"],
